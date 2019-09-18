@@ -12,11 +12,10 @@ By Taeyeong Choi, Sehyeok Kang, and Theodore P. Pavlic
 
 We attach *ThymioL* [2], a dataset specialized for *Remote Teammate Localization (RTL)*,
 where a robot in a multi-robot team only uses observation about its nearest neighbor to infer 
-the locations of all other far teammates.   
-The dataset provides global coordinates and orientation of each robot, collected from each real *Thymio* robot.
-The recording occured twice per second by a central computer monitoring and detecting the change of 
-locations through a overhead camera. 
-We offer two separate cases based on the team size: 3-robot team and 5-robot team. 
+the locations of all other far teammates. The dataset provides global coordinates and orientation of 
+each robot, collected from each real *Thymio* robot. The recording occured twice per second by a central 
+computer monitoring and detecting the change of locations through a overhead camera. We offer two separate 
+cases based on the team size: 3-robot team and 5-robot team. 
 
 All teams bulid upon the motion rules defined in [1] according to the role of robot. 
 We encourage to train an inference model only in the 3-robot team and execute it 
