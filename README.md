@@ -26,8 +26,9 @@ The rest of 20\% from 3-robot team and all from the 5-robot are used to test the
 
 More details about the proportions are shown below: 
 
-![data_proportion](Figures/mins.png)
-
+<p align="center">
+    <img src="Figures/mins.png" width="70%">
+</p>
 
 ## Robot and Arena
 
@@ -43,8 +44,13 @@ types of recordings, on which all robots covered by
 cardboards, for better detection, are programmed to 
 move, as shown below:  
 
-![thymio](Figures/thymio.jpg)
-![all_robots](Figures/all_robots.png)
+<p align="center"> 
+    <img src="Figures/thymio.jpg" width="50%">
+    <img src="Figures/all_robots.png" width="80%">
+</p>
+
+
+## Usage
 
 
 
