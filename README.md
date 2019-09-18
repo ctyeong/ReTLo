@@ -10,7 +10,7 @@ By Taeyeong Choi, Sehyeok Kang, and Theodore P. Pavlic
 
 ## Dataset 
 
-We attach *ThymioL*, a dataset specialized for *Remote Teammate Localization (RTL)*,
+We attach *ThymioL* [2], a dataset specialized for *Remote Teammate Localization (RTL)*,
 where a robot in a multi-robot team only uses observation about its nearest neighbor to infer 
 the locations of all other far teammates.   
 The dataset provides global coordinates and orientation of each robot, collected from each real *Thymio* robot.
@@ -29,8 +29,22 @@ More details about the proportions are shown below:
 ![Drag Racing](Figures/mins.png)
 
 
+## Robot and Arena
+
+A commercial, two-wheeled robotic platform, *Thymio*, is used for all data collection. 
+Each robot is powered by a Raspberry Pi, which communicates with a central monitoring computer 
+via an overhead camera to simulate a better proximity sensor and 
+a virtual GPS system.
+Through the communication, the *Thymio*'s can determine the next 
+motion. 
+
+
 ## References 
 
 [1] Taeyeong Choi, Theodore P. Pavlic, Andrea W. Richa, 
 Automated synthesis of scalable algorithms for inferring non-local properties to assist in multi-robot teaming, 
-13th IEEE Conference on Automation Science and Engineering (CASE), 2017
+13th IEEE Conference on Automation Science and Engineering (CASE), 2017.
+
+[2] https://www.thymio.org/
+
+[3] https://www.raspberrypi.org/products/raspberry-pi-3-model-b/
