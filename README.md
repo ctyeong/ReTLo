@@ -11,7 +11,8 @@ By Taeyeong Choi, Sehyeok Kang, and Theodore P. Pavlic
 ## Dataset 
 
 We attach *Thy-ReTLo*, a dataset specialized for 
-*Remote Teammate Localization (ReTLo)* on *Thymio* robotic platform [2],
+*Remote Teammate Localization (ReTLo)* on a commercial, two-wheeled 
+robotic platform, *Thymio* [2],
 where a robot in a multi-robot team only uses observation about its nearest neighbor to infer 
 the locations of all other far teammates. The dataset provides global coordinates and orientation of 
 each robot, collected from real *Thymio* robots. The recording occured twice per second by a central 
