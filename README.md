@@ -58,7 +58,7 @@ in global coordinates for 26 sequenctial time steps (13 seconds).
 timestep *t*. 
 Since the recording was performed such that the instances have at least *7*-second time gap 
 among them, it can be said that there is little motional dependency between any two instances. 
-The numbers of instances for each case are described below:
+The number of instances for each case are described below:
 
 <p align="center"> 
     <img src="Figures/instances.png" width="60%">
