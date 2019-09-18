@@ -56,8 +56,9 @@ move, as shown below:
 The csv data from *k*-robot team is located in *./Datasets/kRobots*. 
 Each row contains an instance of pose information for all robots, recorded
 in global coordinates for 26 sequenctial time steps (13 seconds).
-*t_r_x*, *t_r_y*, and *t_r_o* are the x,y-coordinates and orientation of *r* robot at 
-timestep *t*. 
+*t_r_x*, *t_r_y*, and *t_r_o* are the x,y-coordinates and orientation of robot *r* at 
+timestep *t* where *H*, *T*, and *Fk* represent *Head*, *Tail*, and *Follower k*
+where *Follower 1* is the nearest one to *Head*.
 Since the recording was performed such that the instances have at least *7*-second time gap 
 among them, it can be said that there is little motional dependency between any two instances. 
 The number of instances for each case are described below:
