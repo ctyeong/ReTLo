@@ -2,31 +2,31 @@
 ---
 By Taeyeong Choi, Sehyeok Kang, and Theodore P. Pavlic
 
-## Introduction 
-This is 
+<!-- ## Prerequisite -->
+<!-- - Python v3.6 -->
+<!-- - Tensorflow v1.14 -->
+<!-- - Jupyter Notebook v5.7.8 -->
+<!-- - Tested in Google's official docker image avilable at [Link](https://www.tensorflow.org/install/docker) -->
 
-## Prerequisite
+## Dataset 
 
-- Python v3.6
-- Tensorflow v1.14
-- Jupyter Notebook v5.7.8
-- Tested in Google's official docker image avilable at [Link](https://www.tensorflow.org/install/docker)
+We attach *ThymioL*, a dataset specialized for *Remote Teammate Localization (RTL)*,
+where a robot in a multi-robot team only uses observation about its nearest neighbor to infer 
+the locations of all other far teammates.   
+The dataset provides global coordinates and orientation of each robot, collected from each real *Thymio* robot.
+The recording occured twice per second by a central computer monitoring and detecting the change of 
+locations through a overhead camera. 
+We offer two separate cases based on the team size: 3-robot team and 5-robot team. 
 
+All teams bulid upon the motion rules defined in [1] according to the role of robot. 
+We encourage to train an inference model only in the 3-robot team and execute it 
+not only in the same size but also in the 5-robot case. 
+thus, we utilize 60\% and 10\% of data from 3-robot team as Training and Validation set, respectively. 
+The rest of 20\% from 3-robot team and all from the 5-robot are used to test the finally obtained model. 
 
-## Datasets
+More details about the proportions are shown below: 
 
-We attach ThymioL, a dataset specialized for RTL problem. 
-The dataset provides global coordinates and orientation of each real *Thymio* robot, and the recording occured twice per second. 
-There are two separate cases based on the size of the robot team, one with 3 robots and the other with 5 robots. 
-All robots followed motion rules defined in 
-
-
-
-## Usage 
-
-
-## Screenshots
-
+![Drag Racing](Figures/mins.png)
 
 
 ## References 
