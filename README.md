@@ -10,7 +10,7 @@ By Taeyeong Choi, Sehyeok Kang, and Theodore P. Pavlic
 
 ## Dataset 
 
-We attach *ThymioL* [2], a dataset specialized for *Remote Teammate Localization (RTL)*,
+We attach *ThymioLoc* [2], a dataset specialized for *Remote Teammate Localization (RTL)*,
 where a robot in a multi-robot team only uses observation about its nearest neighbor to infer 
 the locations of all other far teammates. The dataset provides global coordinates and orientation of 
 each robot, collected from real *Thymio* robots. The recording occured twice per second by a central 
