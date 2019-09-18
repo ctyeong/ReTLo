@@ -26,7 +26,7 @@ The rest of 20\% from 3-robot team and all from the 5-robot are used to test the
 
 More details about the proportions are shown below: 
 
-![Drag Racing](Figures/mins.png)
+![data_proportion](Figures/mins.png)
 
 
 ## Robot and Arena
@@ -37,6 +37,15 @@ via an overhead camera to simulate a better proximity sensor and
 a virtual GPS system.
 Through the communication, the *Thymio*'s can determine the next 
 motion. 
+
+Also, an arena of size 2.5m x 1.9m  is used across all 
+types of recordings, on which all robots covered by 
+cardboards, for better detection, are programmed to 
+move, as shown below:  
+
+![thymio](Figures/thymio.jpg)
+![all_robots](Figures/all_robots.png)
+
 
 
 ## References 
