@@ -45,8 +45,8 @@ cardboards, for better detection, are programmed to
 move, as shown below:  
 
 <p align="center"> 
-    <img src="Figures/thymio.jpg" width="50%">
-    <img src="Figures/all_robots.png" width="80%">
+    <img src="Figures/thymio.jpg" width="30%">
+    <img src="Figures/all_robots.png" width="60%">
 </p>
 
 
