@@ -26,7 +26,7 @@ The rest of 20\% from 3-robot team and all from the 5-robot are used to test the
 More details about the proportions are shown below: 
 
 <p align="center">
-    <img src="Figures/mins.png" width="70%">
+    <img src="Figures/mins.png" width="60%">
 </p>
 
 ## Robot and Arena
@@ -58,6 +58,16 @@ in global coordinates for 26 sequenctial time steps (13 seconds).
 timestep *t*. 
 Since the recording was performed such that the instances have at least *7*-second time gap 
 among them, it can be said that there is little motional dependency between any two instances. 
+The numbers of instances for each case are described below:
+
+<p align="center"> 
+    <img src="Figures/instances.png" width="60%">
+</p>
+
+
+## Contact 
+
+If you have any questions on use of this data, please send an email to *tchoi4@asu.edu*. 
 
 
 ## References 
